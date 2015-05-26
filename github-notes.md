@@ -8,9 +8,9 @@ Github for the Uninitiated
 
   > git add /path/to/file
   
-* if you modify the file and want to keep the change:
+* if you modify the file and want to save the modifications, use:
 
-  > use git commit <file>
+  > git commit /path/to/file
 
 * all previously committed versions are saved (you are liberated from “Save As…”)
 * allows you to copy code from other people (git clone <repo>)
