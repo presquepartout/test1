@@ -40,8 +40,12 @@ Github for the Uninitiated
 * a fork is a copy of someone else's repo in your github account
 
 ###What is a Branch? How do I create a branch? 
+* a branch is a named, isolated copy of a repo. Let the original repo be called original_repo. 
+* you can commit and push changes to your branch and it will not affect original_repo. 
 
 ###What is a clone, or what does it mean to clone? How do I clone? 
+* a clone is a full copy of a repo. 
+* typical use case is you clone one of your github repos to your desktop so you can work on it. 
 
 ###What is push?
 * push is what you do if you have cloned your repo from github to your desktop, made modifications, and want to keep your modifications on your repo
