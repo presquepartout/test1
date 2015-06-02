@@ -14,7 +14,10 @@ Github for the Uninitiated
 
 * all previously committed versions are saved (you are liberated from “Save As…”)
 * allows you to copy code from other people (git clone <repo>)
-* allows you to collaborate on code with other people (create branches, merge branches) e.g. (git checkout - b <branch>)
+* allows you to collaborate on code with other people (create branches, merge branches) 
+ 
+  > e.g. git checkout - b \<branch\>
+
 * git predates github
 * git was created by Linus Torvalds as the version control system for the linux kernel 
 
@@ -45,19 +48,21 @@ Github for the Uninitiated
 
 ###What is a clone, or what does it mean to clone? How do I clone? 
 * a clone is a full copy of a repo. 
+* a clone includes all branches. 
 * typical use case is you clone one of your github repos to your desktop so you can work on it. 
 
 ###What is push?
 * push is what you do if you have cloned your repo from github to your desktop, made modifications, and want to keep your modifications on your repo
-* sequence of events would be clone, modify, save your file, then use 'git status' to make sure git knows you've modified your file; use 'git commit' to commit your changes; use 'git push' to push your changes to your repo on github: 
-
-  > git status the_file 
-  
-  > git commit the_file 
-  
-  > git push
-  
-* push is when you update your own github repo with your own changes
+* sequence of events would be:
+  > fork a repo to your github
+  > clone the repo to your desktop so you can work on it
+  > branch the repo so that your work is isolated, doesn't break others', and others' doesn't break yours
+  > git checkout -b <branch>
+  > make additions, changes, commit them; to keep track, use: 
+  > git status 
+  > push changes to your branch on your github account:
+  > git push origin branch
+* push is when you update your own github branch with your own changes
 
 ###What is pull, or a pull request? 
 * first you have to have already created a branch from another repo. Suppose your branch is called your_repo and the original other repo is called other_repo. 
@@ -66,4 +71,3 @@ Github for the Uninitiated
 * a pull request is when you invite someone else to update their repo with your changes
 * in github, the owner of other_repo has to be a collaborator of your_repo
 
-  > git commit /path/to/file
