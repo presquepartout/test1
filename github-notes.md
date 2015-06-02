@@ -6,17 +6,17 @@ Github for the Uninitiated
 * a version control system: a system that keeps track of computer files for you. 
 * you have to add files to the system using: 
 
-  > git add /path/to/file
+      git add \<filepath\>
   
 * if you modify the file and want to save the modifications, use:
 
-  > git commit /path/to/file
+      git commit \<filepath\>
 
 * all previously committed versions are saved (you are liberated from “Save As…”)
 * allows you to copy code from other people (git clone <repo>)
 * allows you to collaborate on code with other people (create branches, merge branches) 
  
-  > e.g. git checkout - b \<branch\>
+      git checkout - b \<branch\>
 
 * git predates github
 * git was created by Linus Torvalds as the version control system for the linux kernel 
@@ -49,7 +49,9 @@ Github for the Uninitiated
 ###What is a clone, or what does it mean to clone? How do I clone? 
 * a clone is a full copy of a repo. 
 * a clone includes all branches. 
-* typical use case is you clone one of your github repos to your desktop so you can work on it. 
+* typical use case is you clone one of your github repos to your desktop so you can work on it. Copy the URL for your github repo and then use: 
+
+      git clone \<url\>
 
 ###What is push?
 * push is what you do if you have cloned your repo from github to your desktop, made modifications, and want to keep your modifications on your repo
@@ -61,15 +63,15 @@ Github for the Uninitiated
   
   > branch the repo so that your work is isolated, doesn't break others', and others' doesn't break yours
   
-  > git checkout -b \<branch\>
+      git checkout -b \<branch\>
   
   > make additions, changes, commit them; to keep track, use: 
   
-  > git status 
+      git status 
   
   > push changes to your branch on your github account:
   
-  > git push origin branch
+      git push origin branch
   
 * push is when you update your own github branch with your own changes
 
