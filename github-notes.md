@@ -54,14 +54,23 @@ Github for the Uninitiated
 ###What is push?
 * push is what you do if you have cloned your repo from github to your desktop, made modifications, and want to keep your modifications on your repo
 * sequence of events would be:
+
   > fork a repo to your github
+  
   > clone the repo to your desktop so you can work on it
+  
   > branch the repo so that your work is isolated, doesn't break others', and others' doesn't break yours
-  > git checkout -b <branch>
+  
+  > git checkout -b \<branch\>
+  
   > make additions, changes, commit them; to keep track, use: 
+  
   > git status 
+  
   > push changes to your branch on your github account:
+  
   > git push origin branch
+  
 * push is when you update your own github branch with your own changes
 
 ###What is pull, or a pull request? 
