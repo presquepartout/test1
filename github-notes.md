@@ -6,17 +6,17 @@ Github for the Uninitiated
 * a version control system: a system that keeps track of computer files for you. 
 * you have to add files to the system using: 
 
-      git add \<filepath\>
+            git add \<filepath\>
   
 * if you modify the file and want to save the modifications, use:
 
-      git commit \<filepath\>
+            git commit \<filepath\>
 
 * all previously committed versions are saved (you are liberated from “Save As…”)
 * allows you to copy code from other people (git clone <repo>)
 * allows you to collaborate on code with other people (create branches, merge branches) 
  
-      git checkout - b \<branch\>
+            git checkout - b \<branch\>
 
 * git predates github
 * git was created by Linus Torvalds as the version control system for the linux kernel 
@@ -51,7 +51,7 @@ Github for the Uninitiated
 * a clone includes all branches. 
 * typical use case is you clone one of your github repos to your desktop so you can work on it. Copy the URL for your github repo and then use: 
 
-      git clone \<url\>
+            git clone \<url\>
 
 ###What is push?
 * push is what you do if you have cloned your repo from github to your desktop, made modifications, and want to keep your modifications on your repo
